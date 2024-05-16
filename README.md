@@ -19,4 +19,32 @@ El proyecto está estructurado de la siguiente manera:
 
 - **pom.xml**: Archivo de configuración de Maven que define las dependencias y plugins del proyecto.
 
-## Uso
+## Requisitos Previos
+
+- Java 11 instalado en tu sistema. Puedes descargarlo desde [aquí](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+- Maven instalado en tu sistema. Puedes descargarlo desde [aquí](https://maven.apache.org/download.cgi).
+
+## Ejecución del Proyecto
+
+1. Clona este repositorio en tu máquina local:
+
+    ```bash
+    git clone https://github.com/dkdevopsTesis/TRAINS.git
+    ```
+
+2. Navega al directorio del proyecto:
+
+    ```bash ejemplo
+    cd  /documentos
+    ```
+
+3. Compila el proyecto usando Maven:
+
+    ```bash
+    mvn clean package
+    ```
+
+4. Ejecuta el programa:
+
+    ```bash
+    java -jar target/TrainRoutesProject.jar
